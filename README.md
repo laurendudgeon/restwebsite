@@ -1,2 +1,2 @@
 # restwebsite
-Website to learn JavaScript fundamentals
+Website to learn React, JavaScript, HTML, and CSS fundamentals.
