@@ -1,54 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Little Lemon</title>
-
-  <meta property="og:title" content="Our Menu">
-  <meta property="og:type"  content="website">
-  <meta property="og:image" content="logo.png">
-  <meta property="og:url"   content="https://littlelemon/">
-  <meta property="og:description" content="Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.">
-  <meta property="og:locale" content="en_US">
-  <meta property="og:site_name" content="Little Lemon">
-
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <img src="logo.png">
-  </header>
-  <main>
-    <form>
-      <div>
-        <label for="username">Username</label>
-        <input type="text" id="username" name="username" required minlength="2">
-      </div>
-      <div>
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password" required minlength="2">
-      </div>
-      <button type=>Log In</button>
-    </form>
-    <form>
-      <div>
-        <label for="email">E-mail</label>
-        <input type="email" id="email" name="email">
-     </div>
-     <div>
-        <label for="date">Dateof Booking</label>
-        <input type="date" id="date" name="date">
-      </div>
-      <div>
-        <label for="numPpl">Number of People</label>
-        <input type="number" id="numPpl" name="numPpl" min="1" max="8">
-      </div>
-      <div>
-        <label for="agree">I agree to the cancellation policy</label>
-        <input type="checkbox" id="agree" name="agree" required>
-      </div>
-      <button type="submit">Book Now</button>
-    </form>
-  </main>
-</body>
-
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Little Lemon</title>
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.png" alt="Little Lemon Logo">
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="book.html">Book</a></li>   
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="deal" name="deal">
+                <article>
+                    <h1>BOGO Entree This Weekend</h1>
+                    <p>Invite friends, family, or bring just yourself! Enjoy any of our delicious entrees on our hand-picked Mediterranean Menu and get one of equal value free. Hurry the deal ends soon!</p>
+                </article>
+            </section>
+            <section id="subhead">
+                <article>
+                    <h2>Hand-Crafted Menu</h2>
+                    <img src="images/medfood.jpeg" alt="Mediterranean dish">
+                    <p>Our menu consists of classic Italian dishes and Mediterranian cuisine. Mario includes his family recipes and incoporates his chef experience in Italy to make the most authentic dishes.</p>
+                    <a href="menu.html">Find it here</a>
+                </article>
+                <article>
+                    <h2>Book a Reservation</h2>
+                    <img src="images/cooking.jpeg" alt="Chef flambe in pan.">
+                    <p>We have booths, tables, and bar seating. We can accomodate up to groups of 16. Reserve your spot today!</p>
+                    <a href="book.html">Book here</a>
+                </article>
+                <article>
+                    <h2>Operating Hours</h2>
+                    <img src="images/lemonseats.jpeg" alt="Outdoor dining area/">
+                    <p>Find us at 123 Main Ave. Downtown at any of the times listed below:</p>
+                    <ol>
+                        <li>Mon - Fri: 12:00pm - 9:00pm</li>
+                        <li>Saturday: 2:00pm - 10:00pm</li>
+                        <li>Sunday: 10:00am - 7:00pm</li>
+                    </ol>
+                </article>
+            </section>
+        </main>
+    </body>
+    <footer>
+        <div>
+            <img src="images/squarelogo.png" alt="Little Lemon Logo" id="sqrlogo">
+        </div>
+        <div id="copyright">
+            <p>Copyright Little Lemon</p>
+        </div> 
+    </footer>
 </html>

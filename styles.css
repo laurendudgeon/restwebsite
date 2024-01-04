@@ -1,59 +1,136 @@
+
+* {
+    margin: 0rem;
+    color: #000000;
+}
+
 body {
-    background-color: #E0E0E2;
-}
-
-ul {
-    list-style-type: none;
-    text-align: center;
-    padding: 0px;
-}
-
-li {
-    display: inline;
-}
-
-main {
-    text-align: center;
-}
-
-footer {
-    text-align: center;
-}
-
-h1 {
-    color: #721817;
-}
-
-h2 {
-    color: #721817;
-}
-
-.center-text {
-    text-align: center;
+    background-color: #EDEFEE;
+    font-family: serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 img {
+    width: 30rem;
+    margin-bottom: 1rem;
+    margin-top: auto;
+    align-self: center;
+}
+
+#sqrlogo {
+    width: 3rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+#copyright {
+    text-decoration-line: overline;
+    text-align: right;
+    margin-top: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+nav {
+    background-color: #194d33;
+    outline: #194d00;
+    height: 2rem;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+    border-radius: 10px;
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+} 
+
+header > img {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-h2 > span {
-    color: #FA9F42;
-    font-size: 0.75em;
+a:link {
+    color: #FFFFFF;
 }
 
-form > div {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+a:visited {
+    color: bisque;
 }
 
-#copyright {
-    padding-top: 12px;
-    font-size: 0.75em;
+a:hover {
+    background-color: #FFFFFF;
+    color: #194d33; 
 }
 
-input:focus:invalid {
-    color: red;
-    border: red 3px solid;
+ol {
+    list-style: none;
+    margin-top: 0.3rem;
+
+}
+
+h2 + img {  
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+p + a:link {
+    align-self: left;
+    color: blue;
+    margin-left: 1rem;
+}
+
+article  p {
+    margin-left: 1rem;
+}
+
+#deal {
+    outline: dashed;
+    outline-width: 3px;
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+#subhead article {
+    background-color:bisque;
+    height: 25rem;
 }
